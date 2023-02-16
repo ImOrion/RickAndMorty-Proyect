@@ -1,0 +1,90 @@
+
+.wrapper {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: rgb(31, 37, 32);
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #2d8b773b, -13px -13px 20px #1c811ca7;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #01ff9d,
+        0px 0px 0px 5px #19ee27,
+        8px 8px 15px #22ba22,
+        -8px -8px 15px #30c14a;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.9rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #ffffff;
+    text-shadow: 0.5em -0.4em 0.2em rgba(109, 227, 137, 0.884);
+}
+
+.errors {
+    color: #ffffff9c;
+    background-color: transparent;
+    text-shadow: 0.5em -0.3em 0.2em rgba(0, 0, 0, 0.884);
+}
+.wrapper .formfield input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #2d9e36;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.wrapper .formfield {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px rgb(12, 28, 15), inset -8px -8px 8px #18301d;
+}
+
+.wrapper .formfield .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #27ff069f;
+    color: #000000;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #285c51,
+        -3px -3px 3px #285c51;
+    letter-spacing: 1.3px;
+    transition: 1s;
+    border: transparent;
+}
+
+.wrapper .btn:hover {
+    background-color: #338a5c;
+}
+
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+

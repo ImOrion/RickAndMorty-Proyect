@@ -1,0 +1,31 @@
+1. npx create-react-app rick_and_morty
+   cuando hicimos eso, se creó toda la estructura básica de una app de react
+2. desde index.js, seleccionamos un div vacio del HTML y dentro insertamos la aplicación de react
+3. Para empezar a definir rutas, instalamos react-router-dom y seteamos el routing
+    a. Configuración: 
+        - BrowserRouter
+        - Routes
+        - Route
+    b. Navegación:
+        - Link
+        - NavLink
+    segmentos dinámicos
+    Hooks:
+        - useParams
+        - useNavigate
+        - useLocation
+4. Hooks de react
+    - useState
+    - useEffect
+5. Aparece redux (npm i redux react-redux)
+6. Creamos el store (createStore)
+7. Definimos el reducer
+8. Definimos las actions
+9. Conectamos la aplicación de React con el store de redux
+    - en index.js envolver a toda a aplicación en etiquetas Provider
+10. Para que un componente consuma informacion del store, hay 2 opciones:
+    - mapStateToProps + connect
+    - useSelector
+11. Para que un componente pueda modificar el estado global, hay 2 opciones:
+    - mapDispatchToProps + connect
+    - useDispatch
