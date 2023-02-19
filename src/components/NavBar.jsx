@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar.jsx";
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -18,12 +16,14 @@ export default function NavBar(props) {
   const handleShow = () => setShow(true);
 
   return (
+    <div>
     <Navbar key="xxl" bg="light" expand="xxl" className={`mb-4`}>
-      <Container  fluid>
+      <Container  fluid >
         <Link className={`nav-link`} to={"/home"}>
         <img className={s.img} src={logo}/>
         </Link>
         <Navbar.Toggle
+        
           onClick={handleShow}
           aria-controls={`offcanvasNavbar-expand-xxl`}
         />
@@ -33,6 +33,7 @@ export default function NavBar(props) {
           id={`offcanvasNavbar-expand-$"xxl"`}
           aria-labelledby={`offcanvasNavbarLabel-expand-xxl`}
           placement="end"
+          className={s.navCont}
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-xxl`}>
@@ -61,5 +62,6 @@ export default function NavBar(props) {
         </Navbar.Offcanvas>
       </Container>
     </Navbar>
+    </div>
   );
 }

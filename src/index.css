@@ -1,11 +1,13 @@
 body {
-  font-family: 'Patrick Hand', cursive;
-  animation: rainbow-bg 15s linear;
-  animation-iteration-count: infinite;
-  background-image: url("../src//Img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+    font-family: 'Patrick Hand', cursive;
+    animation: rainbow-bg 15s linear;
+    animation-iteration-count: infinite;
+    background-image: url("../src/Img/background.jpg");
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
 
 
 code {

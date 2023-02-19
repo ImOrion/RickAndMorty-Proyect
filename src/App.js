@@ -63,7 +63,6 @@ function App() {
 	}
 
 	return (
-		<>
 		<div className="App">
 			{location.pathname === "/" ? null : <NavBar onSearch={onSearch} />}
 			<Routes>
@@ -77,7 +76,6 @@ function App() {
 				<Route path="/detail/:detailId" element={<Detail />} />
 			</Routes>
 		</div>
-		</>
 	);
 }
 

@@ -31,13 +31,13 @@
     letter-spacing: 1.3px;
     padding-left: 10px;
     color: #ffffff;
-    text-shadow: 0.5em -0.4em 0.2em rgba(109, 227, 137, 0.884);
+    text-shadow: -0.5em -0.3em 0.2em rgba(109, 227, 137, 0.884);
 }
 
 .errors {
     color: #ffffff9c;
     background-color: transparent;
-    text-shadow: 0.5em -0.3em 0.2em rgba(0, 0, 0, 0.884);
+    text-shadow: 0.5em -0.3em 0.1em rgba(0, 0, 0, 0.884);
 }
 .wrapper .formfield input {
     width: 100%;
